@@ -52,3 +52,4 @@ for item in os.listdir(TARGET_FOLDER):
             print(f"Moved {item} to Others")
     else:
         print("Skipping folder:", item)
+TARGET_FOLDER = os.path.expanduser("~/Downloads/test-folder")
